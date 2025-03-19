@@ -1399,8 +1399,13 @@ display: none;
 .contactIco {
   margin-right: 8px;
 }
+#desktopBtn:hover {
+  background-color: var(--accentColour) ;
+}
 
-
+#desktopBtn:active{
+background-color: #7dde1c;
+}
 #alertBox .alert.alert-success.alert-dismissible.fade.show {
   position: fixed;
   top: 50%;

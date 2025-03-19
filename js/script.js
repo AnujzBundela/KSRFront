@@ -10,9 +10,7 @@ $(function(){var e=["https://web.whatsapp.com/send?phone=917043435987","https://
   
       if (!form.checkValidity()) {
         event.stopPropagation();
-      } else {
-        alert("Form submitted successfully!"); // Replace this with AJAX if needed
-      }
+      } 
   
       form.classList.add("was-validated"); // Apply Bootstrap validation styles
     });

@@ -321,27 +321,8 @@ Gujarat, India
                     <button class="btnFillSmall" type="submit" id="desktopBtn"> Submit</button>
                   </div>
                 </form>
-                <div id="alertBox">
-                  <!-- <div class="alert alert-success alert-dismissible fade show" role="alert">
-                    <div class="successIco">
-                      <span class="iconify mb-1" data-icon="qlementine-icons:success-16" ></span>
-                    </div>
-                    <h3 class="therdH">Submission is Successful</h3>
-                    <div class="sucMessage">
-                      <div class="emIcon">
-                        <span class="iconify mb-1" data-icon="line-md:email-multiple-twotone" ></span>
-                      </div>
-                      <div class="sucText">
-                        We have sent you a submission message to your Email.
-                      </div>
-                    </div>
-                    <a class="btnMedium mt-4"  target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1"><span>Open Email</span></a>
-                    <br>
-                    <div class="dulText mt-3">
-                      <span>Don't see our email? Check your spam folder</span>
-                    </div>
-                   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                 </div> -->
+                <div id="alertBox" class="mt-3">
+              
                 </div>
               </div>
           </div>
@@ -859,26 +840,26 @@ Gujarat, India
 
       if (response.ok) {
         alertBox.innerHTML = `
-          <div class="alert alert-success alert-dismissible fade show" role="alert">
-            <div class="successIco">
-              <span class="iconify mb-1" data-icon="qlementine-icons:success-16"></span>
-            </div>
-            <h3 class="therdH">Submission is Successful</h3>
-            <div class="sucMessage">
-              <div class="emIcon">
-                <span class="iconify mb-1" data-icon="line-md:email-multiple-twotone"></span>
-              </div>
-              <div class="sucText">We have sent you a submission message to your Email.</div>
-            </div>
-            <a class="btnMedium mt-4" target="_blank" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">
-              <span>Open Email</span>
-            </a>
-            <br>
-            <div class="dulText mt-3">
-              <span>Don't see our email? Check your spam folder</span>
-            </div>
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-          </div>`;
+             <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <div class="successIco">
+                      <span class="iconify mb-1" data-icon="qlementine-icons:success-16"></span>
+                    </div>
+                    <h3 class="therdH">Submission is Successful</h3>
+                    <div class="sucMessage">
+                      <div class="emIcon">
+                        <span class="iconify mb-1" data-icon="line-md:email-multiple-twotone"></span>
+                      </div>
+                      <div class="sucText">We have sent you a submission message to your Email.</div>
+                    </div>
+                    <a class="btnMedium mt-4" target="_blank" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">
+                      <span class="btnFillSmall mt-3">Open Email</span>
+                    </a>
+                    <br>
+                    <div class="dulText mt-3">
+                      <span>Don't see our email? Check your spam folder</span>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                  </div>`;
 
         document.getElementById("contactForm").reset(); // Reset form fields
       } else {
