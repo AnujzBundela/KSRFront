@@ -388,11 +388,6 @@
   font-size: 12px;
 }
 
-#alertBox .alert {
-  width: 100%;
-  max-width: 400px;
-}
-
 }
 
 @media (max-width: 575.98px) {
